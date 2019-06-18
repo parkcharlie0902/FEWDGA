@@ -1,0 +1,90 @@
+/*css uses different format 
+
+selector, property, value
+important:The css code further down the page takes precedent. Also if you are more specific, than the specific one takes precdent.
+
+but also if you write the style in html, it takes precedent over the css
+
+
+h1{
+	font-family: helvetica, arial, sans-serif;
+	 you put 3 fonts... its prioritized. If helvetica is not on the users computer, then it does arial.. to be safe you can look up websafe fonts
+
+}
+
+h2{
+	font-family: helvetica, arial, sans-serif;
+
+}
+
+what if i want to make the entire body helvetica? Use inheritance
+body{
+	font-family: helvetica, arial, sans-serif;
+	
+}
+
+another shortcut is to seperate by commas
+h1, h2{
+	font-family: helvetica, arial, sans-serif;
+	}
+
+*/
+
+body {
+	background-color:#ffe;
+	/*or do background-color: rgb(0,0,0); 
+	or do background-color: rgba(0,0,0,1); 
+
+	border-width: 3px;
+	border-style: solid;
+	border-color: black;
+	or do shorthand version below*/
+	border:3px solid black;
+	margin:0px;
+	padding:30px;
+}
+
+h1 {
+	font-family: georgia,serif;
+
+}
+
+h2 {
+	font-family:sans-serif;
+}
+
+h3{
+	color:#887;
+	font-style:italic;
+}
+
+h4{
+	color:#887;
+}
+
+/* this one is styling the hyperlinks/anchor tags*/
+a{
+	color:#900;
+}
+
+img {
+	border: 3px solid black;
+	/*
+	height:200px;
+	width: 400px;
+	*/
+}
+
+/*this is a class selector in css*/
+.ingredients_h2{
+	color:green;
+	border-style: solid;
+	border-color: black; 
+	font-family: georgia,serif;
+	font-size: 30px;
+}
+
+.steps-section {
+	background-color: white;
+}
+

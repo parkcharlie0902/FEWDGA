@@ -1,0 +1,37 @@
+.row{
+	/*If you want to use inline-flex or other flex stuff you need to call this 
+	Here is all flex stuff - https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+	*/
+	display:flex;
+}
+
+
+.col1{
+	/*study this on https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+	Don't use FLOAT because its not best practice
+	*/
+/*	display: inline-flex;
+*/	background:blue;
+	width:50%;
+	/*in direction of clock - top right bottom left*/
+	padding:10px 0 10px 0;
+
+	/*
+	padding-top: 10px;
+	padding-bottom: 10px;*/
+}
+
+.col2{
+/*	display: inline-flex;
+*/	background:red;
+	padding:10px 0 10px 0;
+	width:50%
+}
+
+li{
+	border: solid 1px black;
+	/*Property values of display - https://www.w3schools.com/cssref/pr_class_display.asp*/
+	display:inline;
+	padding: 10px;
+	width:20px;
+}

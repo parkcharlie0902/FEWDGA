@@ -1,0 +1,32 @@
+body{
+	font-family: sans-serif;
+	/*this is space between lines of text ex) double space*/
+	line-height: 1.5;
+
+}
+
+h1{
+	background: red;
+	border: 5px solid black;
+	padding: 15px;
+
+}
+
+p{
+	background: blue;
+	/*color only impacts text*/
+	color: white;
+	border: 5px solid black;
+	padding: 15px;
+	/*margin is relative to the element outside of it not in reference to the entire page*/
+	margin-top: 30px;
+
+}
+
+code{
+	background: white;
+	color: black;
+	padding:1px;
+	border: 1px solid black;
+}
+

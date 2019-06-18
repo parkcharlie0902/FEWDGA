@@ -1,0 +1,223 @@
+
+   /*body*/
+    body {
+      background-color:white;
+      color:black;
+      font-family: times new roman;
+      margin:0px;
+      margin-bottom: 0px;
+   
+    }
+    
+    /*Nav Bar items*/
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    opacity: 0.7;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  /*ASK NATE */
+.navbar li {
+  float: left;
+}
+/*ASK NATE what does li a reference*/
+  .navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    opacity: 1;
+    font-family: georgia;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover:not(.active) {
+    background-color: #27211D;
+  }
+
+  .bold_clicked_header {
+    font-weight: bold;
+    font-family: georgia;
+    font-size:15px;
+    opacity: 1;
+    color: white;
+  }
+  /*End of Nav Bar*/  
+
+  /*hero text*/
+    .hero-text {
+      text-align: center;
+      font-family: monaco;
+      font-style: bold;
+      text-align: center;
+      font-size: 30px;
+      color: white;
+      /*not sure how this piece of code works, but it centers the font*/
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      /*review w. Nate*/
+      
+    }
+  /*end of hero text*/
+
+/*hero text2*/
+    .hero-text2 {
+      text-align: center;
+      font-family: monaco;
+      font-style: bold;
+      text-align: center;
+      opacity:1;
+      font-size: 30px;
+      color: white;
+      /*not sure how this piece of code works, but it centers the font*/
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      /*review w. Nate*/
+      
+    }
+  /*end of hero text2*/
+
+/*hero text3*/
+    .hero-text3 {
+      text-align: center;
+      font-family: monaco;
+      font-style: bold;
+      text-align: center;
+      font-size: 30px;
+      color: white;
+      /*not sure how this piece of code works, but it centers the font*/
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      /*review w. Nate*/
+      
+    }
+  /*end of hero text3*/
+
+  /*hero image*/
+  .hero-image {
+    background-image: url("angle.jpeg");
+    height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top:0px;
+  }
+  /*end of hero image*/
+/*hero image 2*/
+ .hero-image2 {
+    background-image: url("building.png");
+    height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top:0px;
+  }
+  /*end of hero image 2*/
+
+
+/*hero image 3*/
+ .hero-image3 {
+    background-image: url("7train.jpg");
+    height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top:0px;
+  }
+  /*end of hero image 3*/
+
+
+.intro-heading {
+  padding-left: 200px;
+  padding-right: 200px;
+  font-size: 34px;
+}
+
+ /*testing image boxes for portoflio*/
+
+ * {
+  box-sizing: border-box;
+}
+
+.img-container {
+  opacity:.5;
+  float: left;
+  width: 33.33%;
+  padding: 30px;
+}
+
+/*Adding hover opacity to portfolio image boxes*/
+.img-container:hover {
+    opacity:1;
+  }
+
+/*what the purpose of clearfix*/
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/*end testing image boxes*/
+
+  /*Footer*/
+  .footer
+    {
+      color:white;
+      background-color: #000;
+      font-family: cursive;
+      opacity: .7;
+      padding: 14px 16px;
+      text-align: center;
+      position: relative;
+      bottom: 0px;
+      width:100%;
+    }
+    /*End of Footer*/
+
+
+
+
+/*quotation on about me*/
+    .profile_pic
+    {
+      float: left;
+      width: 90px;
+      margin-right: 10px;
+      padding: 3px;
+
+    }
+    /*end of quotation on about me*/
+
+
+/*resume*/
+  .resume
+  {
+    opacity: .5;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .resume:hover {
+    opacity:1;
+
+/*resume*/
