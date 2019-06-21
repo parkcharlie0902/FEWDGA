@@ -1,0 +1,65 @@
+body {
+	font-family: georgia, serif;
+	line-height: 1.4;
+	margin:3em;
+	color: #888;
+}
+
+em {
+	color:black;
+}
+
+h1 {
+	color:black;
+}
+
+p {
+	/*margin (if you have 2 numbers): top, bottom*/
+	margin:1.4em 0;
+}
+
+blockquote {
+	border-left:5px solid #eee;
+	/*1em is default font size, its a font size multiplier*/
+	padding: 0 0 0 .7em;
+	/*em is better for mobile than pixel*/
+	margin:0;
+}
+
+/*This is nesting - This is referencing p that is only inside of the blackground*/
+blockquote p {
+	font-style:italic;
+}
+
+
+blockquote em {
+	font-style:normal;
+	color:blue;
+}
+
+a {
+	color:green;
+	/*There are 2 link states
+	a:link
+	a:visited
+	a:hover
+	a:active*/
+
+	/*
+	This is a big nest
+	.bigcontainer .bigger container .parent div h1 a:link {
+		}*/
+}
+
+a:hover {
+	/*Its red when you hover*/
+	color:red;
+}
+
+a:visited {
+	color:orange;
+}
+
+blockquote:hover {
+	background-color:blue;
+}

@@ -1,0 +1,225 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+    
+}
+
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+.leadspace {
+  width: 100%;
+  margin: auto;
+  height: 500px;
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+.band1 .relaxr h1 {
+  font-weight: bolder;
+  font-size: 40px;
+  padding-top: 20px;
+  padding-left: 20px;
+  color:white;
+
+}
+
+.band1 .peace h2 {
+  padding-top: 40px;
+  color: white;
+  text-align: center;
+  font-size: 33px;
+  margin-bottom: 30px;
+}
+
+
+.band1 .cta button{
+  font-weight:bolder;
+  font-size: 24px;
+  text-align: center;
+  border:none black 5px;
+  padding: 10px;
+  width: 20%;
+  margin: 0 auto;
+  margin-left: 40%;
+  margin-right: 40%;
+  background-color: #f9e42e;
+  border-radius: 5px;
+}
+
+/*benefits band*/
+main{
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+     background-color: white;
+     height: auto;
+     padding:40px;
+     width: 700px;
+   }
+
+main h1 {
+  font-size: 25px;
+  font-weight: bold;
+  color: #033048;
+}
+
+main p {
+  font-size: 20px;
+  font-weight: lighter;
+
+}
+
+main ul {
+  padding-top: 30px;
+  font-size: 20px;
+  font-weight: lighter;
+
+}
+
+main ul li {
+  padding-left: 40px;
+  font-size: 20px;
+  font-weight: lighter;
+
+}
+/* end of benefits band*/
+
+
+/* start of testimonial"“Relaxr changed my life. I’ve been able to travel the world, spend limited time working and my boss keeps thanking me for crushing work.”" - Light Italic, 18px
+"- Amanda, Intuit " - semibold, 18px*/
+
+.testimonial {
+  background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+  height: auto;
+}
+
+.testimonial blockquote p {
+  color: white;
+  font-style: italic;
+  font-size: 20px;
+  text-align: center;
+  font-weight: lighter;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding-top: 20px;
+
+}
+
+.testimonial p {
+  color: white;
+  font-weight: bolder;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding-top: 10px;
+  padding-bottom: 20px;
+
+}
+
+/*end of testimonial*/
+.sign {
+  background-color: #f9e42e;
+  height:auto;
+}  
+
+.sign button {
+  color:white;
+  font-weight:bolder;
+  font-size: 24px;
+  text-align: center;
+  border:none black 5px;
+  padding: 10px;
+  width: 20%;
+  margin: 0 auto;
+  margin-left: 40%;
+  margin-right: 40%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #033048;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #121212;
+  height: auto;
+}
+
+footer h1 {
+  color: #f9e42e;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 20px;
+}
+
+footer p {
+  color: #ffff;
+  font-size: 10px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+
+
+
+
